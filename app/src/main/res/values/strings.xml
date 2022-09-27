@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Database</string>
+    <string name="app_name">Snooker Players Database</string>
+    <string name="all_players_fragment_name">Main Tour Snooker Players</string>
+    <string name="add_player_fragment_name">Add Snooker Player</string>
+    <string name="all_players">All players</string>
+    <string name="add_player">Add player</string>
+    <string name="first_name_text_field">First name</string>
+    <string name="last_name_text_field">Last name</string>
+    <string name="nationality_text_field">Nationality</string>
+    <string name="add_new_player_button_name">Add new Player</string>
+    <string name="search_button_text">Search</string>
 </resources>

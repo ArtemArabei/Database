@@ -12,7 +12,7 @@ class PlayerViewHolder(
         with(binding) {
 
             playerFullInfo.text =
-                "Player ${item.id}: ${item.firstName} ${item.lastName}, ${item.nationality}"
+                "Player - ${item.id}: ${item.firstName} ${item.lastName}, ${item.nationality}"
             root.setOnLongClickListener {
                 onLongPlayerClicked(item)
                 true

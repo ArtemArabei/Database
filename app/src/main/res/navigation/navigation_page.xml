@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_page"
+    app:startDestination="@id/all_players">
+
+    <fragment
+        android:id="@+id/all_players"
+        android:name="com.example.database.room.AllPlayersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_all_players" />
+
+    <fragment
+        android:id="@+id/add_player"
+        android:name="com.example.database.room.AddPlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_add_player" />
+
+</navigation>
